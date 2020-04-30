@@ -1,6 +1,6 @@
 # doom-emacs-private
 
-My private module for [doom-emacs](https://github.com/karthikmuralidharan/doom-emacs).
+My private module for  [doom-emacs](https://github.com/hlissner/doom-emacs).
 
 ## Install
 
