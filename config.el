@@ -49,10 +49,9 @@
 ;;
 ;; You can also try 'gd' (or 'C-c g d') to jump to their definition and see how
 ;; they are implemented.
+(smartparens-global-mode -1)
+(electric-pair-mode 1)
 
-(after! smartparens
-  (smartparens-global-mode -1)
-  (electric-pair-mode 1))
 
 (custom-set-variables
  ;; custom-set-variables was added by Custom.
