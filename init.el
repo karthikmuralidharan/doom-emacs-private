@@ -30,7 +30,7 @@
        ;; fill-column       ; a `fill-column' indicator
        hl-todo           ; highlight todo/fixme/note/deprecated/hack/review
        hydra
-       ;; indent-guides     ; highlighted indent columns
+       indent-guides     ; highlighted indent columns
        modeline          ; snazzy, atom-inspired modeline, plus api
        nav-flash         ; blink cursor line after big motions
        ophints           ; highlight the region an operation acts on
@@ -59,7 +59,7 @@
        word-wrap         ; soft wrapping with language-aware indent
        ;;lispy             ; vim for lisp, for people who don't like vim
        ;;god               ; run emacs commands without modifier keys
-       ;;rotate-text       ; cycle region at point between text candidates
+       rotate-text       ; cycle region at point between text candidates
 
        :emacs
        dired             ; making dired pretty [functional]
@@ -127,7 +127,7 @@
        (java +eclim)         ; the poster child for carpal tunnel syndrome
        (javascript +lsp)          ; all(hope(abandon(ye(who(enter(here))))))
        ;;julia             ; a better, faster MATLAB
-       kotlin            ; a better, slicker Java(Script)
+       (kotlin +lsp)            ; a better, slicker Java(Script)
        ;;latex             ; writing papers in Emacs has never been so fun
        ;;lean
        ;;factor
