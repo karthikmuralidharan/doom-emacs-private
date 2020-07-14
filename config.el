@@ -29,7 +29,16 @@
 ;; change `org-directory'. It must be set before org loads!
 (setq org-directory "~/notes/"
       org-roam-directory "~/notes/"
-      org-roam-graph-exclude-matcher '("private" "dailies"))
+      org-roam-graph-exclude-matcher '("private" "dailies")
+      org-roam-server-host "127.0.0.1"
+      org-roam-server-port 8080
+      org-roam-server-export-inline-images t
+      org-roam-server-authenticate nil
+      org-roam-server-network-poll t
+      org-roam-server-network-arrows nil
+      org-roam-server-network-label-truncate t
+      org-roam-server-network-label-truncate-length 60
+      org-roam-server-network-label-wrap-length 20)
 
 ;; This determines the style of line numbers in effect. If set to `nil', line
 ;; numbers are disabled. For relative line numbers, set this to `relative'.
