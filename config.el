@@ -44,6 +44,9 @@
 ;; numbers are disabled. For relative line numbers, set this to `relative'.
 (setq display-line-numbers-type t)
 
+;; ignore projectile auto-detection
+(setq projectile-auto-discover nil)
+
 ;; Here are some additional functions/macros that could help you configure Doom:
 ;;
 ;; - `load!' for loading external *.el files relative to this one
@@ -62,7 +65,6 @@
 ;; they are implemented.
 (smartparens-global-mode -1)
 (electric-pair-mode 1)
-
 
 (custom-set-variables
  ;; custom-set-variables was added by Custom.
